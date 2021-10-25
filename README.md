@@ -26,6 +26,7 @@ axios({
 ```
 
 **To deploy to Firebase cloud solutions:**
+
 0. Pre-requisite: install [Firebase CLI](https://firebase.google.com/docs/cli), run `firebase login`
 1. Create new firebase project in repo root by running `firebase init` and enabling hosting and functions
 2. Install modules by running `yarn` in root and in `/function` directory
