@@ -1,0 +1,1 @@
+export const BALANCE_PROXY_URL = "YOUR_BALANCE_PROXY_URL";
