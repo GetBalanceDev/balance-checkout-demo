@@ -34,8 +34,9 @@ axios({
 2. Install modules by running `yarn` in root and in `/function` directory
 3. Run `yarn deploy --only functions` to build functions in the cloud
 4. Edit the `balanceProxy` function in [GCP Console](https://console.cloud.google.com/functions) to `BALANCE_KEY` environment variable
-5. Change the transaction config to the scenario you want to test out (see `mockTransaction.js`)
-6. Run `yarn deploy --only hosting` to build app and visit hosting URL
+5. Change the `BALANCE_PROXY_URL` in the `config.js` to the URL of the deployed cloud function
+6. Change the transaction config to the scenario you want to test out (see `mockTransaction.js`)
+7. Run `yarn deploy --only hosting` to build app and visit hosting URL
 
 ### Contributors ###
 This project server-side is inspired by the [GCP Proxy Func](https://github.com/joshuatz/gcp-proxy-func) repo.
